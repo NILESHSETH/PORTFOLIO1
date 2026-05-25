@@ -57,9 +57,9 @@ function App() {
       }>
         <Hero />
         <About />
-        <Projects />
+        {/* <Projects /> */}
         <Clients />
-        <WorkExperience />
+        {/* <WorkExperience /> */}
         <Contact />
         <Footer />
       </Suspense>
