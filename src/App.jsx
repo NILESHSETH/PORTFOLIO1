@@ -36,6 +36,7 @@ import Clients from './sections/Clients.jsx';
 import WorkExperience from './sections/Experience.jsx';
 import Contact from './sections/Contact.jsx';
 import Footer from './sections/Footer.jsx';
+import CodingProfiles from './components/CodingProfiles.jsx';
 
 // Heavy 3D sections — load lazily
 const Hero = lazy(() => import('./sections/Hero.jsx'));
@@ -58,6 +59,7 @@ function App() {
         <Hero />
         <About />
         {/* <Projects /> */}
+        <CodingProfiles/>
         <Clients />
         {/* <WorkExperience /> */}
         <Contact />

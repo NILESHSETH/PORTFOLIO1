@@ -98,8 +98,9 @@ const Hero = () => {
     <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
       Hi, I am Nilesh Kumar Seth <span className="waving-hand">👋</span>
     </p>
-    <p className="hero_tag text-gray_gradient">Building Products & Brands</p>
-  </div>
+<p className="hero_tag text-gray_gradient" style={{ fontSize: '2rem' }}>
+ A Third Year BIT Mesra Under-Graduate
+</p>  </div>
 
   {/* Canvas — behind text, no pointer interference */}
   <div className="w-full h-full absolute inset-0">
